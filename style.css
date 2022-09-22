@@ -1,35 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-*{
-    margin: 0;
-    font-family: 'Bungee Spice', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+* {
+  margin: 0;
+  font-family: "Bungee Spice", cursive;
 }
 
-header{
-    display:flex;
-    justify-content: space-between;
-    background-color: gray;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }
 
-a{
-all:unset;
-cursor: pointer;
+a {
+  all: unset;
+  cursor: pointer;
 }
-img{
-    width: 50%;
+img {
+  width: 50%;
 }
 
-.container{
-    display: flex;
-    margin: 10px;
-    gap: 100px;
+.container {
+  display: flex;
+  margin: 10px;
+  gap: 100px;
 }
-nav{
-    display: flex;
-    gap: 100px;
+nav {
+  display: flex;
+  gap: 100px;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+.card {
+  background-color: antiquewhite;
+  margin: 10px;
+  width: 250px;
+  padding: 5px;
+  box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
