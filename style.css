@@ -17,3 +17,19 @@ a{
 all:unset;
 cursor: pointer;
 }
+img{
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    gap: 100px;
+}
+nav{
+    display: flex;
+    gap: 100px;
+}
+h1{
+    text-align: center;
+}
